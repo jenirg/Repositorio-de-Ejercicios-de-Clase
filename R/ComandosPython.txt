@@ -1,0 +1,123 @@
+# DEFINIR VARIABLE
+dir: visualizar cuales son los metodos asociados a determinado metodo 
+a = 5
+b = 3
+c = a / b
+print('a:',a,"b;",b,'c:',c)
+print(a+b)
+print(a*b)
+print(c/a)
+print(c%a)
+print(a**b)
+
+#LISTAS
+Tipo = ['Integer','Float','String','Boolean']
+Ejemplo = [20240122, 0.8, 'Ene-22', True]
+print(Ejemplo)
+
+#TUPLAS
+tupla = ('Algo','Otro','Mas',25)
+print(tupla)
+
+Bibliotecas
+from
+import
+
+
+import math
+import pandas as pd
+
+r = 5
+p=2*math.pi*r
+print('Perimetro', p)
+print('El perimero de la circuferencia de radio {0} es {1:0.2f}'.format(r,p))
+
+#Creacion de un DataFrame
+tipoDato = pd.DataFrame(data=Ejemplo, index= tipo, columns=['Ejemplo'])
+tipoDato
+tipoDato['Ejemplo']['String']
+
+
+_______________________________________________________________________________
+TERCERA CLASE
+tabla_reducida = data[['species','sex','body_mass_g']]
+
+#Agrupaciones de Datos
+data['sex'].value_counts()
+data['species'].value_counts()
+data['island'].value_counts()
+
+##Group by
+data.groupby(by=['species','sex']).describe().T
+data.groupby(by=['species','sex']).mean(numeric_only=True)
+
+data.groupby(by=['species','sex']).aggregate(['min',np.median,max,np.mean]).T
+
+#Editar valores
+tabla_reducida['sex'] = np.where(tabla_reducida['sex']== 'Male','Macho','Hembra')
+
+especies=data['species'].value_counts()
+
+#Grafico de barras
+plt.bar(especies.index, especies) 
+plt.show 
+
+plt.bar(especies.index, especies);
+
+######
+vuelos = sns.load_dataset('flights')
+vuelos
+
+pivoteVuelos = vuelos.pivot('month','year','passengers')
+pivoteVuelos
+
+#MAPA DE CALOR
+mapa_calor = sns.heatmap(pivoteVuelos, annot=True, fmt='d')
+
+##CARGAR DATOS
+ruta = ''
+tabla = pd.read_excel(ruta)
+tabla
+
+##MODULOS DE CALCULO
+import numpy as np
+import pandas as pd
+import seaborn as sns
+import statsmodels.api as sm
+from scipy import stats
+
+sns.get_dataset_names()
+auto = sns.load_dataset('mpg')
+auto.head(5)
+
+
+correlacion = auto.corr(numeric_only = True)
+correlacion.style.background_gradient(cmap='cooldwarm')
+
+x = auto['weight']
+x = sm.add_constant(x)
+x
+
+y = auto['mpg']
+resultado = sm.OLS(y, x).fit()
+resultado.summary()
+
+ax1 = sns.regplot(data = auto , x = 'weight', y = 'mpg')
+ax1.set_xlabel('Peso')
+ax1.set_ylabel('Millas por galon')
+ax1.set_title('Relacion peso-mpg')
+ax1.plot();
+
+//////////////777
+import matplotlib.pyplot as plt 
+
+fig2, ax2 = plt.subplots(figsize=(5,3))
+sns.boxplot(x='origin', y='mpg', data  = auto);
+//////////////////////////////////
+archivo = 'RUTA DE ACCESO' '../../DataSet/'
+ferrari = pd.read_csv(archivo)
+
+ferrari
+
+
+

@@ -1,0 +1,147 @@
+   1  sudo apt-get install nvm
+    2  sudo apt-get install npm
+    3  sudo apt update
+    4  sudo apt-get install npm
+    5  sudo apt-get install nodejs
+    6  node --version
+    7  sudo apt-get install nvm
+    8  wget -qO- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.7/install.sh | bash
+    9  nvm -v
+   10  nnm
+   11  cd adopciones/
+   12  nvm
+   13  nvm list remote
+   14  nvm install v20.11.0
+   15  npm i -g @nestjs/cli
+   16  nest new adopciones
+   17  npm run start
+   18  cd adopciones/
+   19  npm run start
+   20  npm run start:dev
+   21  npm run start:dev
+   22  cd adopciones/
+   23  code .
+   24  nest generate controller users
+   25  cd adopciones/
+   26  code .
+   27  npm run start:dev
+   28  cd adopciones/
+   29  . code
+   30  cd adopciones/
+   31  code .
+   32  nest g service users --no-spec
+   33  npm run start:dev
+   34  docker --version
+   35  docker pull hello-world
+   36  docker run hello-world
+   37  sudo npm i --save class-validator class-transformer
+   38  cd adopciones
+   39  npm run start:dev
+   40  cd adopciones
+   41  code .
+   42  npm run start:dev
+   43  cd adopciones/
+   44  code .
+   45  npm run start:dev
+   46  cd adopciones
+   47  g module users
+   48  nest g module users
+   49  cd ..
+   50  sudo apt-get update
+   51  sudo apt-get install docker-compose-plugin
+   52  docker compose version
+   53  cd adopciones
+   54  docker-compose up -d
+   55  npm install --save @nestjs/typeorm typeorm pg
+   56  docker-compose down db
+   57  docker-compose up -d
+   58  docker-compose down db
+   59  docker-compose up -d
+   60  cd adopciones
+   61  npm run start:dev
+   62  cd adopciones
+   63  code .
+   64  docker-compose up -d
+   65  npm add @nestjs/mapped-types
+   66  yarn add @nestjs/mapped-types
+   67  npm add @nestjs/mapped-types
+   68  npm install @nestjs/mapped-types
+   69  sudo npm install @nestjs/mapped-types
+   70  npm install @nestjs/mapped-types
+   71  sudo npm install @nestjs/mapped-types
+   72  npm run start:dev
+   73  cd adopciones
+   74  nmp run start:dev
+   75  sudo nmp run start:dev
+   76  nmp run start:dev
+   77  npm run start:dev
+   78  code .
+   79  nest g service dogs --no-spec
+   80  cd adopciones
+   81  code .
+   82  nest g service dogs --no-spec
+   83  nest g service Dogs --no-spec
+   84  cd adopciones
+   85  code .
+   86  npm run start:dev
+   87  cd adopciones
+   88  npm run start:dev
+   89  cd adopciones
+   90  code .
+   91  cd adopciones
+   92  code .
+   93  npm run start:dev
+   94  nest g service Dogs --no-spec
+   95  npm run start:dev
+   96  cd adopciones
+   97  code .
+   98  npm run start:dev
+   99  nest g controller users/roles
+  100  nest g service users/roles
+  101  npm run start:dev
+  102  cd adopciones
+  103  docker compose up db -d
+  104  npm run start:dev
+  105  docker compose up db -d
+  106  npm run start:dev
+  107  cd adociones
+  108  cd adopciones
+  109  code .
+  110  cd adopciones
+  111  code .
+  112  yarn migration:generate src/migrations/init_database
+  113  npm migration:generate src/migrations/init_database
+  114  npm run migration:generate src/migrations/init_database
+  115  npm migration:generate src/migrations/init_database
+  116  yarn migration:generate src/migrations/init_database
+  117  npm run migration:generate src/migrations/init_database
+  118  npm migration:generate src/migrations/init_database
+  119  npm run migration:generate src/migrations/init_database
+  120  npm run nestjs/config
+  121  D
+  122  cd adopciones
+  123  npm run migration:generate src/migrations/add_lastname-to-users
+  124  nmp run migration:revert
+  125  npm run migration:revert
+  126  nmp run migration:run
+  127  npm run migration:revert
+  128  npm i --save migration:revert
+  129  cd adopciones
+  130  code .
+  131  npm run migration:run
+  132  cd adopciones
+  133  code .
+  134  yarn add @hai/joi
+  135  yarn add @hapi/joi
+  136  npm run add @hapi/joi
+  137  npm add @hapi/joi
+  138  npm add -D @types/hapi__joi
+  139  npm run start:dev
+  140  npm i --save joi
+  141  npm run start:dev
+  142  npm install --save @nestjs/swagger
+  143  npm run start:dev
+  144  cd adopciones
+  145  code .
+  146  npm run start:dev
+  147  history
